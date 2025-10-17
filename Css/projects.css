@@ -111,5 +111,6 @@ footer a:hover {
 
   .card img {
     height: 200px;
+    width: 100%;
   }
 }
