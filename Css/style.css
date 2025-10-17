@@ -21,7 +21,7 @@ body {
 }
 
 .hero {
-background: url("../Images/Portfolio.jfif") center/cover no-repeat;
+background: url("/images/Portfolio.jfif") center/cover no-repeat;
   height: 90vh;
   color:#959595;
   position: relative;
