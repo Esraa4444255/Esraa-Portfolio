@@ -10,26 +10,22 @@ body {
   box-sizing: border-box;
 }
 
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #959595 !important;
+}
+
 .special-heading { 
-  color: #d1d1d1;
+  color: #959595;
   font-size: 50px;
   text-align: center;
   font-weight: 800;
   letter-spacing: -3px;
   margin: 0;
 }
-.text {
-  font-size: 17px;
-  padding-top: 10px;
-  margin-left: 20px;
-  margin-right: 15px;
-}
 
-.navbar-brand {
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #c6c2c1 !important;
-}
+
 
 section { 
   color: rgb(13, 13, 13);
@@ -37,18 +33,41 @@ section {
   text-align: center;
 }
 
+.text {
+  font-size: 17px;
+  line-height: 1.5;          
+  color: #333;               
+  padding: 15px 20px;         
+  margin: 0 auto;             
+  max-width: 500px;           
+  text-align: justify;        
+  word-spacing: 1px;         
+}
 
 footer {
   background-color: #111;
   color: #f9f9f9;
   font-size: 0.9rem;
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+footer p {
+  margin: 0;
+  letter-spacing: 0.5px;
 }
 
 footer a {
   color: #a9a6a6;
   text-decoration: none;
-  margin: 0 5px;
-  transition: 0.3s;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+  font-weight: 500;
 }
 
 footer a:hover {

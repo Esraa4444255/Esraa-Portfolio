@@ -4,21 +4,20 @@ body {
   overflow-x: hidden;
 }
 
-
 .navbar-brand {
   font-weight: bold;
   font-size: 1.5rem;
   color: #959595 !important;
 }
 
-
-
 .pro-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
-  padding: 0 100px 60px;
+  justify-content: center;
+  gap: 25px;
+  padding: 0 20px ;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .special-heading { 
@@ -83,24 +82,7 @@ body {
 }
 
 .btn-outline-dark:hover {
-  background-color: #222;
-  color: #fff;
-}
-
-footer {
-  background-color: #111;
-  color: #f9f9f9;
-  font-size: 0.9rem;
-}
-
-footer a {
-  color: #a9a6a6;
-  text-decoration: none;
-  margin: 0 5px;
-  transition: 0.3s;
-}
-
-footer a:hover {
+  background-color: #2d2b2b;
   color: #fff;
 }
 
@@ -113,4 +95,34 @@ footer a:hover {
     height: 200px;
     width: 100%;
   }
+} 
+
+footer {
+  background-color: #111;
+  color: #f9f9f9;
+  font-size: 0.9rem;
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+footer p {
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+footer a {
+  color: #a9a6a6;
+  text-decoration: none;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: #fff;
 }
